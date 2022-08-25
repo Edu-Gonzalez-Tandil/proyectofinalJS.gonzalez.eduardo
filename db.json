@@ -1,0 +1,28 @@
+{
+  "socios": [
+    {
+      "nombre": "Eduardo",
+      "apellido": "Gonzalez",
+      "dni": 36559841,
+      "esJugador": true,
+      "edad": 31,
+      "obra_social": "Osde"
+    },
+    {
+      "nombre": "Dolores",
+      "apellido": "Roveda",
+      "dni": 34297047,
+      "esJugador": false,
+      "edad": 33,
+      "obra_social": "Osde"
+    },
+    {
+      "nombre": "Sofia",
+      "apellido": "Gonzalez",
+      "dni": 57970135,
+      "esJugador": true,
+      "edad": 2,
+      "obra_social": "Osde"
+    }
+  ]
+}

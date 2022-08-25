@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ce49404a95.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Registro social Los Cardos RC</title>
+  </head>
+
+  <body class="body">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./img/cardos_calco1.jpg"
+            alt="imglogo"
+            height="100"
+            width="150"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="./pages/shop.html">SHOP</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1>REGISTRO SOCIAL LOS CARDOS RUGBY CLUB</h1>
+    <section class="registro_social px-4">
+      <form id="formulario">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input class="form-control" type="text" id="nombre" name="nombre" />
+        </div>
+        <div class="form-group">
+          <label for="apellido">Apellido</label>
+          <input
+            class="form-control"
+            type="text"
+            id="apellido"
+            name="apellido"
+          />
+        </div>
+        <div class="form-group">
+          <label for="dni">DNI</label>
+          <input class="form-control" type="number" id="dni" name="dni" />
+        </div>
+        <div class="form-group">
+          <label for="edad">Edad</label>
+          <input class="form-control" type="number" id="edad" name="edad" />
+        </div>
+        <div class="form-group">
+          <label for="telefono">Celular</label>
+          <input class="form-control" type="number" id="telefono" name="telefono" />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electronico</label>
+          <input class="form-control" type="text" id="email" name="email" />
+        </div>
+        <div class="form-group">
+          <label for="select_jugador">Practicara un deporte?</label>
+          <select class="form-control" name="jugador" id="select_jugador">
+            <option value="si" selected>SI</option>
+            <option value="no">NO</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="edad">Obra social</label>
+          <input
+            class="form-control"
+            type="text"
+            id="obra_social"
+            name="obra_social"
+          />
+        </div>
+        <div class="py-4">
+          <button class="btn btn-primary" type="submit" id="boton_enviar">
+            ENVIAR DATOS
+          </button>
+        </div>
+      </form>
+    </section>
+    <section id="datos_socio">
+      <ul id="costos"></ul>
+    </section>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.body{
+  background-image: url(./img/fondo2.jpg);
+}
+
+label{
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.item_costo {
+  font-weight: bold;
+  font-size: 15px;
+}
+.datos_socio_borde {
+  border: 1px solid blue;
+}
+
+.registro_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.costo_anual {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.logo {
+  width: 164px;
+  height: 84px;
+  cursor: pointer;
+}
